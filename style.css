@@ -1,0 +1,17 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: white;
+  margin: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.rounded-rectangle {
+  background-image: linear-gradient(to right, #3366ff, #cc3399);
+  border-radius: 0.75rem;
+}
+  
