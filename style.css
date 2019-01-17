@@ -13,9 +13,9 @@ body {
   font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   color: white;
   margin-top: 0em;
-  margin-bottom: 1.5em;
-  margin-left: 1.5em;
-  margin-right: 1.5em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,6 +28,15 @@ h1, h2, h3, h4, h5, h6 and _::-webkit-full-page-media, _:future, :root .safari_o
 
 .rounded-rectangle {
   background-image: linear-gradient(to right, #3333cc, #cc3399);
-  border-radius: 0.75rem;
+  border-radius: 0.35rem;
+}
+
+.hamburger {
+  width: 1.5em;
+  height: 0.20em;
+  background-color: white;
+  margin: 0.25em 0;
+  border-radius: 0.35rem;
 }
   
+*[dir="rtl"] { direction: rtl; unicode-bidi: embed; }
