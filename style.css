@@ -1,17 +1,33 @@
-/* CSS files add styling rules to your content */
+@font-face {
+  font-family: Montserat;
+  src: url(https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2FMontserrat-Regular.ttf?1547689484543);
+}
+
+@font-face {
+  font-family: Montserat;
+  font-weight: bold;
+  src: url(https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2FMontserrat-Bold.ttf?1547689484421);
+}
 
 body {
   font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   color: white;
-  margin: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 and _::-webkit-full-page-media, _:future, :root .safari_only {
+  font-family: Montserat, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
 .rounded-rectangle {
-  background-image: linear-gradient(to right, #3366ff, #cc3399);
+  background-image: linear-gradient(to right, #3333cc, #cc3399);
   border-radius: 0.75rem;
 }
   
