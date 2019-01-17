@@ -13,18 +13,33 @@
     
     <script src="script.js" defer></script>
   </head>  
-  <body style="background-color:black">
+  <body style="background-color:#0d0d0d">
     <div style="height:2rem">
-      <img src="https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2FCalicode%20Logo.svg?1547677098055" style="height:1.5rem;vertical-align:middle">
-      <h4 style="display:inline-block">&nbspCalicode</h4>
-      <div dir="rtl" style="vertical-align:middle;float:right;margin-top:1rem">
-        <div class="hamburger">
-        </div>
-        <div class="hamburger">
-        </div>
-        <div class="hamburger">
-        </div>
-      </div>
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+              <img class="fas fa-bars" style="vertical-align:middle;float:right;margin-top:0.2em" src="https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2Fhamburger.svg?1547761879216">
+        </span>
+        <a href="index.html" class="logo" style="text-decoration:none">
+          <img src="https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2FCalicode%20Logo.svg?1547677098055" style="height:1.5rem;vertical-align:middle">
+          <h4 style="display:inline-block;color:white">&nbspCalicode</h4>
+        </a>
+        <ul class="main-nav" id="js-menu">
+            <a class="leftofsearch" href="#">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg">
+            </a>
+            <input type="text" placeholder=" Search">
+            <li>
+                <a href="#" class="nav-links">Create</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">My Projects</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Profile</a>
+            </li>
+        </ul>
+    </nav>
+      
     </div>
     <br>
     <div class="rounded-rectangle" style="background-image: width:100%;height:4rem">
