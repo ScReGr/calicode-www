@@ -102,16 +102,12 @@ input[type=text] {
   font-family:Montserat, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
-.leftofsearch {
-  display: none;
-}
 
 .leftofsearch img {
-  display: block;
+  display: none;
 }
-
-
-@media screen and (min-width: 850) {
+  
+@media screen and (min-width: 768px) {
     .navbar {
         display: flex;
         justify-content: space-between;
