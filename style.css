@@ -12,10 +12,8 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   color: white;
-  margin-top: 0em;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin: 0;
+  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,18 +28,14 @@ h1, h2, h3, h4, h5, h6 and _:-ms-lang(x), _:-webkit-full-screen, .selector {
   font-family: Montserat, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
+
 .rounded-rectangle {
   background-image: linear-gradient(-185deg, #3333cc, #cc3399);
   border-radius: 0.35rem;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.hamburger {
-  width: 1.5em;
-  height: 0.20em;
-  background-color: white;
-  margin: 0.25em 0;
-  border-radius: 0.35rem;
-}
 
 .project {
   width: 10em;
@@ -75,12 +69,21 @@ h1, h2, h3, h4, h5, h6 and _:-ms-lang(x), _:-webkit-full-screen, .selector {
   display: flex;
 }
 
+.featured {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding-bottom: 0;
   height: 70px;
   align-items: center;
+  border-bottom: 5px white;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .main-nav {
   display: flex;
@@ -88,7 +91,7 @@ h1, h2, h3, h4, h5, h6 and _:-ms-lang(x), _:-webkit-full-screen, .selector {
   list-style: none;
 }
 .main-nav li {
-  margin: -.5em;
+  margin: -1.2em;
 }
 .nav-links {
   margin-left: 40px;
