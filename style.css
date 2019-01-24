@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 and _:-ms-lang(x), _:-webkit-full-screen, .selector {
   align-items: center;
   border-bottom: 5px white;
   margin-left: 1em;
-  margin-right: 1em;
+  margin-right: 1.2em;
 }
 .main-nav {
   display: flex;
