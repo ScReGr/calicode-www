@@ -1,12 +1,16 @@
 @font-face {
-  font-family: Montserat;
-  src: url(https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2FMontserrat-Regular.ttf?1547689484543);
+    font-family: 'montserrat';
+    src: url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff');
+    font-style: normal;
 }
 
 @font-face {
-  font-family: Montserat;
-  font-weight: bold;
-  src: url(https://cdn.glitch.com/4518f4ab-ad64-4308-9194-30e33ae8b42b%2FMontserrat-Bold.ttf?1547689484421);
+    font-family: 'montserrat';
+    font-weight: bold;
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-style: normal;
 }
 
 body {
@@ -17,16 +21,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 and _::-webkit-full-page-media, _:future, :root .safari_only {
-  font-family: Montserat, "Helvetica Neue", helvetica, arial, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 and _:-ms-lang(x), _:-webkit-full-screen, .selector {
-  font-family: Montserat, "Helvetica Neue", helvetica, arial, sans-serif;
-}
 
 
 .rounded-rectangle {
@@ -98,6 +95,6 @@ h1, h2, h3, h4, h5, h6 and _:-ms-lang(x), _:-webkit-full-screen, .selector {
   text-decoration: none;
   color:white;
   line-height:2em;
-  font-family: "Montserrat", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 .logo {margin-top: 0;}
