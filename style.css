@@ -45,8 +45,12 @@ h1, h2, h3, h4, h5, h6 { font-family: montserrat, "Helvetica Neue", helvetica, a
 	background-image: linear-gradient(-185deg, #3333cc, #cc3399);
 	border-radius: 0.35rem;
 	line-height: 0;
-	margin-left:calc(500px - 1em);
 	vertical-align:top;
+	margin-left: calc(500px - 1em);
+}
+
+.hide {
+	margin: 0 auto;
 }
 
 .studio {
@@ -165,16 +169,67 @@ textarea, select, input, button { outline: none; }
 #followButton{
 	transition: background-color .25s ease-in-out;
 	color:#a6a6a6;
-	display:inline-block;
 	border: 1px solid #303030;
+	width: 174px;
 	padding:3px 5px 3px 5px;
 	border-radius:6px;
+	float:right;
 	text-decoration: none;
-	margin-left:calc(1000px - 1em);
-	float:top;
+	margin-top:-240px;
 	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
 	font-weight:bold;
 	font-size: 12px;
+	text-align:center;
 }
 
 #followButton:hover{ background-color:#303030; }
+
+.followers {
+	background-color: #303030;
+	width:85px;
+	height:30px;
+	border-radius:6px;
+	padding:3px;
+	margin-top:-280px;
+	float:right;
+	text-align:center;
+	margin-right: 95px;
+}
+
+.followers p {
+	margin:0;
+}
+
+#numberFollowers {
+	font-weight:bold;
+	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.following {
+	background-color: #303030;
+	width:85px;
+	height:30px;
+	border-radius:6px;
+	padding:3px;
+	margin-top:-280px;
+	float:right;
+	text-align:center;
+}
+
+.following p {
+	margin:0;
+}
+
+#numberFollowing {
+	font-weight:bold;
+	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+@media all and (max-width: calc(500px + 1em + 700px)) {
+	.hide{display:none}
+	.right{margin-top:71px}
+}
+
+@media all and (max-width: calc(500px + 1em + 200px)) {
+	.right{display:none}
+}
