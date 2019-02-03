@@ -125,6 +125,7 @@ textarea, select, input, button { outline: none; }
 	min-height:100px;
 	font-weight:400;
 	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
+	margin-bottom: 0;
 }
 
 .largeProfileIcon {
@@ -148,6 +149,7 @@ textarea, select, input, button { outline: none; }
 	margin-top:0px;
 	min-width:500px;
 	max-width:500px;
+	margin-bottom: 2px;
 }
 
 #newButton{
@@ -162,6 +164,11 @@ textarea, select, input, button { outline: none; }
 	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
 	font-weight:bold;
 	font-size: 12px;
+}
+
+#newButton a {
+	text-decoration: none;
+	color:#a6a6a6;
 }
 
 #newButton:hover{ background-color:#303030; }
