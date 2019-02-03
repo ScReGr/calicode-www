@@ -121,7 +121,9 @@ textarea, select, input, button { outline: none; }
 	text-decoration: none;
 	text-align:top;
 	font-size: 16px;
-	min-width:500px;
+	min-width:340px;
+	width: 85%;
+	max-width:700px;
 	min-height:100px;
 	font-weight:400;
 	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
@@ -147,8 +149,8 @@ textarea, select, input, button { outline: none; }
 #commentContent {
 	margin-left: calc(35px + 1em);
 	margin-top:0px;
-	min-width:500px;
 	max-width:500px;
+	width:88%;
 	margin-bottom: 2px;
 }
 
