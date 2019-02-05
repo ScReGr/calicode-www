@@ -46,8 +46,10 @@
 		<div style="width:95%;margin:0 auto;min-height:calc(14em + 80px)">
     <div class="largeProfileIcon"><h1 style="margin-left: calc(75px + 1em);margin-bottom:0px" id="username">Isaac</h1><p style="margin-left: calc(75px + 2em)" id="country">Australia</p>
     </div>
-    <h3 style="margin-left:1em;margin-bottom:-10px">About</h3>
-    <p style="margin-left:1em;max-width:300px" id="aboutUser">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+    <div style="background-color:#191d21;max-width:300px;padding:3px;border-radius:6px;border:1px solid #2c333a">
+    	<h3 style="margin-left:1em;margin-bottom:-10px">About</h3>
+    	<p style="margin-left:1em;max-width:300px" id="aboutUser">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
+    </div>
 	<div class="hide">
 		<h3 style="margin-left:calc(500px - 1em);margin-top:-220px;line-height:0px;min-width:300px">Featured Project</h3>
 		<div id="featuredProject"></div>
@@ -65,10 +67,12 @@
 		<a id="followButton" href="#">
 		Follow
 		</a>
-		<h3 style="float:right; margin-top:-200px">Activity</h3>
-		<p style="float:right; margin-top:-170px">
-			You sucked an egg
-		</p>
+		<div style="float:right;margin-top:-220px;background-color:#191d21;width:184px;padding:2px 10px 12px 20px;border-radius:6px;border:1px solid #2c333a">
+			<h3 style="">Activity</h3>
+			<p style="max-width:300px;line-height:0px">
+				You sucked an egg
+			</p>
+		</div>
 	</div>
 	<br>
 </div>
@@ -137,7 +141,7 @@
     <h2>Comments</h2>
     <textarea class="comment-input"></textarea>
     <br>
-    <a id="newButton" href="#">Comment</a>
+    <div id="newButton"><a href="#">Comment</a></div>
     <div>
     	<div class="smallProfileIcon"></div>
 	<h4 style="margin-left: calc(35px + 1em);margin-bottom:0px;margin-top:calc(-35px - 1em)">EncloCreations</h4>
@@ -150,7 +154,7 @@
 	<h4 style="margin-left: calc(35px + 1em);margin-bottom:0px;margin-top:calc(-35px - 1em)">Sunsetly</h4>
 	<p id="commentContent">gr8 song, that album used to be my jam. my strawberry jam-a-lam. gr8 song, that album used to be my jam. my strawberry jam-a-lam. gr8 song, that album used to be my jam. my strawberry jam-a-lam. </p>
 	<div id="newButton" style="margin-left:calc(35px + 1em)"><a href="#">Reply</a></div>
-	<a id="newButton" href="#"><img src="assets/heart.svg" style="height:9px"></a>
+	<a id="newButton" href="#"><img src="assets/heart.svg" class="like" style="height:9px"></a>
     </div>
     <br>
     

@@ -21,15 +21,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif; }
 
-
-
 .rounded-rectangle {
 	background-image: linear-gradient(-185deg, #3333cc, #cc3399);
 	border-radius: 0.35rem;
 	margin-left: 1em;
 	margin-right: 1em;
 }
-
 
 .project {
 	width: 10em;
@@ -155,7 +152,7 @@ textarea, select, input, button { outline: none; }
 }
 
 #newButton{
-	transition: background-color .25s ease-in-out;
+	transition: .25s ease-in-out;
 	color:#a6a6a6;
 	display:inline-block;
 	border: 1px solid #2c333a;
@@ -169,14 +166,17 @@ textarea, select, input, button { outline: none; }
 }
 
 #newButton a {
+	transition: .25s ease-in-out;
 	text-decoration: none;
-	color:#a6a6a6;
+	color:white;
 }
 
-#newButton:hover{ background-color:#0263ff; }
+#newButton:hover{ background-color:#0263ff;border-color:#0263ff; }
+
+#newButton:hover a {color:white;}
 
 #followButton{
-	transition: background-color .25s ease-in-out;
+	transition: .25s ease-in-out;
 	color:#ffffff;
 	border: 1px solid #2c333a;
 	width: 174px;
@@ -184,14 +184,14 @@ textarea, select, input, button { outline: none; }
 	border-radius:6px;
 	float:right;
 	text-decoration: none;
-	margin-top:-240px;
+	margin-top:-260px;
 	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
 	font-weight:bold;
 	font-size: 12px;
 	text-align:center;
 }
 
-#followButton:hover{ background-color:#0263ff; }
+#followButton:hover{ background-color:#0263ff;border-color:#0263ff; }
 
 .followers {
 	background-color: #2c333a;
@@ -199,7 +199,7 @@ textarea, select, input, button { outline: none; }
 	height:30px;
 	border-radius:6px;
 	padding:3px;
-	margin-top:-280px;
+	margin-top:-300px;
 	float:right;
 	text-align:center;
 	margin-right: 95px;
@@ -220,7 +220,7 @@ textarea, select, input, button { outline: none; }
 	height:30px;
 	border-radius:6px;
 	padding:3px;
-	margin-top:-280px;
+	margin-top:-300px;
 	float:right;
 	text-align:center;
 }
