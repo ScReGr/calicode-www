@@ -48,7 +48,7 @@
     </div>
     <div style="background-color:#191d21;max-width:300px;padding:3px;border-radius:6px;border:1px solid #2c333a;margin-left:1em;height:150px">
     	<h3 style="margin-left:1em;margin-bottom:-10px">About</h3>
-    	<p style="margin-left:1em;max-width:300px" id="aboutUser">blah blah blah blah blah blah blah blah</p>
+    	<p style="margin-left:1em;max-width:300px;word-break: break-all;" id="aboutUser">blah blah blah blah blah blah blah blah</p>
     </div>
 	<div class="hide">
 		<h3 style="margin-left:calc(500px - 1em);margin-top:-240px;line-height:0px;min-width:300px">Featured Project</h3>
@@ -64,7 +64,7 @@
 			<p id="numberFollowing" style="line-height:20px;">0</p>
 			<p style="line-height:10px;font-size:8px">Following</p>
 		</div>
-		<a id="followButton" href="#">
+		<a id="followButton" href="javascript:">
 		Follow
 		</a>
 		<div style="float:right;margin-top:-200px;background-color:#191d21;width:184px;padding:2px 10px 12px 20px;border-radius:6px;border:1px solid #2c333a">
@@ -139,23 +139,25 @@
     </div>
     <br>
     <h2>Comments</h2>
-    <textarea class="comment-input"></textarea>
+    <textarea class="comment-input" id="comment-input"></textarea>
     <br>
-    <div id="newButton"><a href="#">Comment</a></div>
+    <div id="newButton"><a href="javascript:">Comment</a></div>
+	<div id="comments">
     <div>
-    	<div class="smallProfileIcon"></div>
+    <div class="smallProfileIcon"></div>
 	<h4 style="margin-left: calc(35px + 1em);margin-bottom:0px;margin-top:calc(-35px - 1em)">EncloCreations</h4>
 	<p id="commentContent">Cringe</p>
-	<div id="newButton" style="margin-left:calc(35px + 1em)"><a href="#" style="padding: 0px 5px 0px 5px">Reply</a></div>
-	<a id="newButton" href="#"><img src="assets/heart.svg" style="height:9px"></a>
+	<div id="newButton" style="margin-left:calc(35px + 1em)"><a href="javascript:" style="padding: 0px 5px 0px 5px">Reply</a></div>
+	<a id="newButton" href="javascript:"><img src="assets/heart.svg" style="height:9px"></a>
     </div>
     <div>
-    	<div class="smallProfileIcon"></div>
+    <div class="smallProfileIcon"></div>
 	<h4 style="margin-left: calc(35px + 1em);margin-bottom:0px;margin-top:calc(-35px - 1em)">Sunsetly</h4>
 	<p id="commentContent">gr8 song, that album used to be my jam. my strawberry jam-a-lam. gr8 song, that album used to be my jam. my strawberry jam-a-lam. gr8 song, that album used to be my jam. my strawberry jam-a-lam. </p>
-	<div id="newButton" style="margin-left:calc(35px + 1em)"><a href="#" style="padding: 0px 5px 0px 5px">Reply</a></div>
-	<a id="newButton" href="#"><img src="assets/heart.svg" class="like" style="height:9px"></a>
+	<div id="newButton" style="margin-left:calc(35px + 1em)"><a href="javascript:" style="padding: 0px 5px 0px 5px">Reply</a></div>
+	<a id="newButton" href="javascript:"><img src="assets/heart.svg" class="like" style="height:9px"></a>
     </div>
+	</div>
     <br>
     
     </div>
