@@ -186,7 +186,7 @@ textarea, select, input, button { outline: none; }
 	border-radius:6px;
 	float:right;
 	text-decoration: none;
-	margin-top:-260px;
+	margin-top:-240px;
 	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
 	font-weight:bold;
 	font-size: 12px;
@@ -201,7 +201,7 @@ textarea, select, input, button { outline: none; }
 	height:30px;
 	border-radius:6px;
 	padding:3px;
-	margin-top:-300px;
+	margin-top:-280px;
 	float:right;
 	text-align:center;
 	margin-right: 95px;
@@ -222,7 +222,7 @@ textarea, select, input, button { outline: none; }
 	height:30px;
 	border-radius:6px;
 	padding:3px;
-	margin-top:-300px;
+	margin-top:-280px;
 	float:right;
 	text-align:center;
 }
