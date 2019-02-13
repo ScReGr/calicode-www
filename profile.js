@@ -35,7 +35,7 @@ window.onload = function() {
 			document.getElementById("numberFollowing").innerHTML = response.following.length;
 			var comments = response.comments;
 			for (var c in comments) {
-				document.getElementById("comments").innerHTML = document.getElementById("comments").innerHTML+'<div><div class="smallProfileIcon"></div><h4 style="margin-left: calc(35px + 1em);margin-bottom:0px;margin-top:calc(-35px - 1em)">'+comments[c].poster+'</h4><p id="commentContent">'+comments[c].content+'</p><div id="newButton" style="margin-left:calc(35px + 1em)"><a href="javascript:replyto(\''+comments[c].poster+'\','+c+')" style="padding: 0px 5px 0px 5px">Reply</a></div> <a id="newButton" href="javascript:like('+c+')"><img src="assets/heart.svg" style="height:9px"></a><br><textarea class="reply-input" id="reply-input"></textarea></div>';
+				document.getElementById("comments").innerHTML = document.getElementById("comments").innerHTML+'<div><div class="smallProfileIcon"></div><h4 style="margin-left: calc(35px + 1em);margin-bottom:0px;margin-top:calc(-35px - 1em)">'+comments[c].poster+'</h4><p id="commentContent">'+comments[c].content+'</p><div id="newButton" style="margin-left:calc(35px + 1em)"><a href="javascript:replyto(\''+comments[c].poster+'\','+c+')" style="padding: 0px 5px 0px 5px">Reply</a></div> <a id="newButton" href="javascript:like('+c+')"><img src="assets/heart.svg" style="height:9px"></a><br><textarea class="reply-input" id="reply-input'+c+'"></textarea></div>';
 			}
 		}
 	}
