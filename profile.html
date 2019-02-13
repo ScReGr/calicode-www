@@ -1,153 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Calicode</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+    	<title>Calicode</title>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="icon.png">
-	<link rel="icon" type="image/png" href="assets/icon.png">
+    	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    	<link rel="stylesheet" href="style.css">
+    	<link rel="shortcut icon" href="icon.png">
+		<link rel="icon" type="image/png" href="assets/icon.png">
     
-    <script src="profile.js" defer></script>
-	<script src="global.js" defer></script>
-  </head>  
-  <body style="background-color:#191d21">
-    <div style="">
-      <nav class="navbar">
-        <a href="index.html" class="logo" style="text-decoration:none">
-          <img src="assets/logo.svg" style="height:1.3rem;vertical-align:middle">
-          <h4 style="display:inline-block;color:white">&nbspCalicode</h4>
-        </a>
-        <ul class="main-nav">
-            <li>
-              <a href="search.html"><img src="assets/search.svg" style="height:5rem;vertical-align:middle"></a>
-            </li>
-            <li>
-                <a href="create.html"><img src="assets/create.svg" style="height:5rem;vertical-align:middle"></a>
-            </li>
-            <li>
-              <a href="mystuff.html"><img src="assets/mystuff.svg" style="height:5rem;vertical-align:middle"></a>
-            </li>
-            <li>
-                <a href="profile.html"><img src="assets/avatar.svg" style="height:5rem;vertical-align:middle"></a>
-            </li>
-            <br>
-        </ul>
-    </nav>
-    <div style="width:100%;height:1px;background-color:#2c333a;margin:0">  
-    </div>
-    </div>
-    <div style="background-color:#202429">
-   		<br>
-		<div style="width:95%;margin:0 auto;min-height:calc(14em + 80px)">
-    <div class="largeProfileIcon"><h1 style="margin-left: calc(75px + 1em);margin-bottom:0px" id="username"> </h1><p style="margin-left: calc(75px + 2em)" id="country"> </p>
-    </div>
-    <div style="background-color:#191d21;max-width:300px;padding:3px;border-radius:6px;border:1px solid #2c333a;margin-left:1em;height:150px">
-    	<h3 style="margin-left:1em;margin-bottom:-10px">About</h3>
-    	<p style="margin-left:1em;max-width:300px;word-break: break-all;" id="aboutUser"></p>
-    </div>
-	<div class="hide">
-		<h3 style="margin-left:calc(500px - 1em);margin-top:-240px;line-height:0px;min-width:300px">Featured Project</h3>
-		<div id="featuredProject"></div>
-		<p style="margin-left:calc(500px - 1em);line-height:0px">Project</p>
-	</div>
-	<div class="right">
-		<div class="followers">
-			<p id="numberFollowers" style="line-height:20px;"></p>
-			<p style="line-height:10px;font-size:8px">Followers</p>
-		</div>
-		<div class="following">
-			<p id="numberFollowing" style="line-height:20px;"></p>
-			<p style="line-height:10px;font-size:8px">Following</p>
-		</div>
-		<a id="followButton" href="javascript:">
-		Follow
-		</a>
-		<div style="float:right;margin-top:-200px;background-color:#191d21;width:184px;padding:2px 10px 12px 20px;border-radius:6px;border:1px solid #2c333a">
-			<h3 style="">Activity</h3>
-			<p style="max-width:300px;line-height:0px">
-				You sucked an egg
-			</p>
-		</div>
-	</div>
-	<br>
-</div>
-		<div style="width:100%;height:1px;background-color:#2c333a;margin:0">  
+    	<script src="profile.js" defer></script>
+		<script src="global.js" defer></script>
+  	</head>  
+    <body style="background-color:#191d21">
+    	<div>
+			<nav class="navbar">
+       			<a href="index.html" class="logo" style="text-decoration:none">
+          		<img src="assets/logo.svg" style="height:1.3rem;vertical-align:middle">
+         	 	<h4 style="display:inline-block;color:white">&nbspCalicode</h4>
+        		</a>
+        		<ul class="main-nav">
+            		<li><a href="search.html"><img src="assets/search.svg" style="height:5rem;vertical-align:middle"></a></li>
+            		<li><a href="create.html"><img src="assets/create.svg" style="height:5rem;vertical-align:middle"></a></li>
+            		<li><a href="mystuff.html"><img src="assets/mystuff.svg" style="height:5rem;vertical-align:middle"></a></li>
+            		<li><a href="profile.html"><img src="assets/avatar.svg" style="height:5rem;vertical-align:middle"></a></li>
+            		<br>
+        		</ul>
+    		</nav>
+    		<div style="width:100%;height:1px;background-color:#2c333a;margin:0"></div>
     	</div>
-    </div>
-<div style="width:95%;margin:0 auto">
-    <div class="featured">
-    <div>
-      <h2 style="margin-top:1.75em;line-height:0em">
-        Projects
-      </h2>
-      <div class="flex-container">
-        <div style="display:inline-block">
-          <div class="project">
-          </div>
-          <p style="display:inline;font-size:14px">
-            <b>Project</b> <i style="font-size:11px">by User</i>
-          </p>
-        </div>
-        &nbsp&nbsp
-      </div>
-      <h2 style="margin-top:1.75em;line-height:0em">
-        Studios
-      </h2>
-      <div class="flex-container">
-        <div style="display:inline-block">
-          <div class="studio">
-          </div>
-          <p style="display:inline;font-size:14px">
-            <b>Studio</b>
-          </p>
-        </div>
-        &nbsp&nbsp
-      </div>
-    </div>
-    <div>
-      <h2 style="margin-top:1.75em;line-height:0em">
-        Favorites
-      </h2>
-      <div class="flex-container">
-        <div style="display:inline-block">
-          <div class="project">
-          </div>
-          <p style="display:inline;font-size:14px">
-            <b>Project</b> <i style="font-size:11px">by User</i>
-          </p>
-        </div>
-        &nbsp&nbsp
-      </div>
-      <h2 style="margin-top:1.75em;line-height:0em">
-        Groups
-      </h2> 
-      <div class="flex-container">
-        <div style="display:inline-block;text-align:center">
-          <div class="user">
-          </div>
-          <p style="display:inline;font-size:14px">
-            <b>Group</b>
-          </p>
-        </div>
-        &nbsp&nbsp
-      </div>
-    </div>
-    <br>
-    <h2>Comments</h2>
-    <textarea class="comment-input" id="comment-input"></textarea>
-    <br>
-    <div id="newButton"><a href="javascript:">Comment</a></div>
-	<div id="comments">
-    
-	</div>
-    <br>
-    
-    </div>
-</div>
-  </body>
+    	<div style="background-color:#202429">
+   			<br>
+			<div style="width:95%;margin:0 auto;min-height:calc(14em + 80px)">
+    			<div class="largeProfileIcon"><h1 style="margin-left: calc(75px + 1em);margin-bottom:0px" id="username"></h1><p style="margin-left: calc(75px + 2em)" id="country"></p></div>
+    			<div style="background-color:#191d21;max-width:300px;padding:3px;border-radius:6px;border:1px solid #2c333a;margin-left:1em;height:150px">
+    				<h3 style="margin-left:1em;margin-bottom:-10px">About</h3>
+    				<p style="margin-left:1em;max-width:300px;word-break: break-all;" id="aboutUser"></p>
+    			</div>
+				<div class="hide">
+					<h3 style="margin-left:calc(500px - 1em);margin-top:-240px;line-height:0px;min-width:300px">Featured Project</h3>
+					<div id="featuredProject"></div>
+					<p style="margin-left:calc(500px - 1em);line-height:0px">Project</p>
+				</div>
+				<div class="right">
+					<div class="followers">
+					<p id="numberFollowers" style="line-height:20px;"></p>
+					<p style="line-height:10px;font-size:8px">Followers</p>
+				</div>
+					<div class="following">
+					<p id="numberFollowing" style="line-height:20px;"></p>
+					<p style="line-height:10px;font-size:8px">Following</p>
+				</div>
+					<a id="followButton" href="javascript:">Follow</a>
+					<div style="float:right;margin-top:-200px;background-color:#191d21;width:184px;padding:2px 10px 12px 20px;border-radius:6px;border:1px solid #2c333a">
+					<h3 style="">Activity</h3>
+					<p style="max-width:300px;line-height:0px">You sucked an egg</p>
+				</div>
+				</div>
+				<br>
+			</div>
+			<div style="width:100%;height:1px;background-color:#2c333a;margin:0"></div>
+    	</div>
+		<div style="width:95%;margin:0 auto">
+    		<div class="featured"></div>
+      		<h2 style="margin-top:1.75em;line-height:0em">Projects</h2>
+      		<div class="flex-container">
+       			<div style="display:inline-block">
+          			<div class="project"></div>
+          			<p style="display:inline;font-size:14px"><b>Project</b> <i style="font-size:11px">by User</i></p>
+        		</div>
+       	 		&nbsp&nbsp
+      		</div>
+      		<h2 style="margin-top:1.75em;line-height:0em">Studios</h2>
+      		<div class="flex-container">
+        		<div style="display:inline-block">
+          			<div class="studio"></div>
+          			<p style="display:inline;font-size:14px"><b>Studio</b></p>
+        		</div>
+        		&nbsp&nbsp
+     		</div>
+    	</div>
+    	<div>
+      		<h2 style="margin-top:1.75em;line-height:0em">Favorites</h2>
+      		<div class="flex-container">
+        		<div style="display:inline-block">
+          			<div class="project"></div>
+          			<p style="display:inline;font-size:14px"><b>Project</b> <i style="font-size:11px">by User</i></p>
+        		</div>
+        		&nbsp&nbsp
+      		</div>
+      		<h2 style="margin-top:1.75em;line-height:0em">Groups</h2> 
+      		<div class="flex-container">
+        		<div style="display:inline-block;text-align:center">
+          			<div class="user"></div>
+          			<p style="display:inline;font-size:14px"><b>Group</b></p>
+        		</div>
+        		&nbsp&nbsp
+     		</div>
+    	</div>
+    	<br>
+    	<h2>Comments</h2>
+    	<textarea class="comment-input" id="comment-input"></textarea>
+    	<br>
+    	<div id="newButton"><a href="javascript:">Comment</a></div>
+		<div id="comments"></div>
+	</body>
 </html>
