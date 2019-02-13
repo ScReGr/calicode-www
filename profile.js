@@ -1,8 +1,8 @@
 var replyingid = -1;
 function replyto(user, id) {
-	document.getElementById("comment-input").value = "@"+user+" ";
+	document.getElementById("reply-input").value = "@"+user+" ";
 	replyingid = id;
-	document.getElementById("comment-input").focus();
+	document.getElementById("reply-input").focus();
 }
 
 window.onload = function() {
@@ -14,7 +14,8 @@ window.onload = function() {
 	xhr.onload = function() {
 		var response = JSON.parse(xhr.responseText);
 		if (response.status == "error") {
-			document.getElementById("username").innerHTML = "UDNE"
+			document.getElementById("username").innerHTML = "Unknown"
+			document.getElementById("aboutUser").innerHTML = "Unknown"
 		} else {
 			document.getElementById("followButton").onclick = function(e) {
 				if (localStorage.sess != undefined) {

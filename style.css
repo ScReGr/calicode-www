@@ -129,6 +129,28 @@ textarea, select, input, button { outline: none; }
 	max-height:200px;
 }
 
+.reply-input {
+	background-color:#202429;
+	color: white;
+	display:inline-block;
+	border: 1px solid #2c333a;
+	padding:5px 5px 5px 5px;
+	border-radius:6px;
+	text-decoration: none;
+	text-align:top;
+	font-size: 16px;
+	font-weight:400;
+	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
+	margin-bottom: 0;
+	min-width: 250px;
+	width:85%;
+	max-width:500px;
+	min-height:50px;
+	height:50px;
+	max-height:200px;
+	margin-left:calc(32px + 1em);
+}
+
 .largeProfileIcon {
 	width:75px;
 	height:75px;
