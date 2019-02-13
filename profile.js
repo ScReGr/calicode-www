@@ -1,9 +1,9 @@
 var replyingid = -1;
 function replyto(user, id) {
-	document.getElementById("reply-input").value = "@"+user+" ";
 	replyingid = id;
-	document.getElementById("reply-input").focus();
-	document.getElementById("reply-input").style.display="inline-block"
+	document.getElementById("reply-input"+id).value = "@"+user+" ";
+	document.getElementById("reply-input"+id).focus();
+	document.getElementById("reply-input"+id).style.display="inline-block"
 }
 
 window.onload = function() {
