@@ -3,6 +3,7 @@ function replyto(user, id) {
 	document.getElementById("reply-input").value = "@"+user+" ";
 	replyingid = id;
 	document.getElementById("reply-input").focus();
+	document.getElementById("reply-input").style.display="inline-block"
 }
 
 window.onload = function() {

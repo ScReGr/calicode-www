@@ -132,7 +132,7 @@ textarea, select, input, button { outline: none; }
 .reply-input {
 	background-color:#202429;
 	color: white;
-	display:inline-block;
+	display:none;
 	border: 1px solid #2c333a;
 	padding:5px 5px 5px 5px;
 	border-radius:6px;
