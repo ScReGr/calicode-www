@@ -2,13 +2,16 @@ var replyingid = -1;
 function replyto(user, id) {
 	replyingid = id;
 	document.getElementById("reply-input"+id).value = "@"+user+" ";
-	document.getElementById("reply-input"+id).value = "@"+user+" ";
 	document.getElementById("reply-input"+id).focus();
 	document.getElementById("reply-input"+id).style.display="inline-block"
 }
 
 document.getElementById('css_toggle').onclick = function () {
 	document.getElementById('changemode').href = "css/light.css"
+}
+
+document.getElementById('css_toggle2').onclick = function () {
+	document.getElementById('changemode').href = "css/dark.css"
 }
 
 window.onload = function() {
