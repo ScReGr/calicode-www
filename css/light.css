@@ -205,9 +205,9 @@ textarea, select, input, button { outline: none; }
 	color:#2C2F3A;
 }
 
-#newButton:hover{ background-color:#0263ff;border-color:#0263ff; }
+#newButton:hover, #newButton:active{ background-color:#0263ff;border-color:#0263ff; }
 
-#newButton:hover a {color:white;}
+#newButton:hover a, #newButton:active a {color:white;}
 
 #followButton{
 	transition: .25s ease-in-out;
@@ -226,7 +226,7 @@ textarea, select, input, button { outline: none; }
 	background-color:#FFFFFF;
 }
 
-#followButton:hover{ background-color:#0263ff;border-color:#0263ff;color:white}
+#followButton:hover, #followButton:active{ background-color:#0263ff;border-color:#0263ff;color:white}
 
 .followers {
 	background-color: #FAFAFB;
