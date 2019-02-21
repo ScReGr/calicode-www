@@ -200,9 +200,11 @@ textarea, select, input, button { outline: none; }
 	color:white;
 }
 
-#newButton:hover, #newButton:active{ background-color:#0263ff;border-color:#0263ff; }
+#newButton:active { background-color:#17334F;border-color:#17334F}
 
-#newButton:hover a, #newButton:active a {color:white;}
+#newButton:hover{ background-color:#0263ff;border-color:#0263ff; }
+
+#newButton a:hover{color:white;}
 
 #followButton{
 	transition: .25s ease-in-out;
@@ -220,7 +222,9 @@ textarea, select, input, button { outline: none; }
 	text-align:center;
 }
 
-#followButton:hover, #followButton:active { background-color:#0263ff;border-color:#0263ff; }
+#followButton:hover { background-color:#0263ff;border-color:#0263ff; }
+
+#followButton:active { background-color:#17334F;border-color:#17334F}
 
 .followers {
 	background-color: #2c333a;
