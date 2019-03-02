@@ -286,6 +286,21 @@ textarea, select, input, button { outline: none; }
 	height:150px;
 }
 
+.whatnew {
+	background-color:#191d21;
+	max-width:300px;
+	padding:1px 20px 1px 20px;
+	border-radius:6px;
+	border:1px solid #2c333a;
+	height:150px;
+}
+
+.middle {
+	margin:0 auto;
+	background-color:#202429;
+	padding:20px 0px 20px calc(2.1% + 20px)
+}
+
 #aboutUser {
 	margin-left:1em;
 	max-width:300px;
