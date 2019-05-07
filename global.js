@@ -32,3 +32,38 @@ function getAllUrlParams(url) {
 	}
 	return obj;
 }
+
+function setCookie(name, value) {
+	document.cookie = name + "=" + value + "; expires=Mon, 31 Dec 2022 23:59:59 UTC; path=/";
+	return document.cookie;
+}
+
+function getCookie(name) {
+	var name = name + "=";
+	var ca = decodeURIComponent(document.cookie).split(';');
+	
+	for(var i = 0; i < ca.length; i++) {
+		  var cookie = ca[i];
+		  
+	  	while (cookie.charAt(0) == ' ') {
+			cookie = cookie.substring(1);
+		}
+		  
+	  	if (cookie.indexOf(name) == 0) {
+			return cookie.substring(name.length, cookie.length);
+	  	}
+	}
+	return null;
+}
+
+function setTheme(css) {
+	setCookie("theme", css);
+}
+
+// Themes
+theme = getCookie("theme");
+if (theme == "light") {
+	document.getElementById("changemode").href = "css/light.css";
+} else {
+	document.getElementById("changemode").href = "css/dark.css";
+}
