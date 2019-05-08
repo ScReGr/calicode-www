@@ -1,4 +1,5 @@
 var replyingid = -1;
+var theme, changeMode
 function replyto(user, id) {
 	replyingid = id;
 	document.getElementById("reply-input"+id).value = "@"+user+" ";
@@ -7,14 +8,24 @@ function replyto(user, id) {
 }
 
 document.getElementById('css_toggle').onclick = function () {
-	document.getElementById('changemode').href = "css/light.css"
-}
-
-document.getElementById('css_toggle2').onclick = function () {
-	document.getElementById('changemode').href = "css/dark.css"
+	theme = getCookie("theme")
+	if (theme == null) {
+		setTheme("light");
+		document.getElementById("changemode").href = "css/light.css";
+	}
+	if (theme == "dark") {
+		setTheme("light");
+		document.getElementById("changemode").href = "css/light.css";
+	}
+	if (theme == "light") {
+		setTheme("dark");
+		document.getElementById("changemode").href = "css/dark.css";
+	}
 }
 
 window.onload = function() {
+
+	// Profile Information and Comments
 	var id = getAllUrlParams().id;
 	document.getElementById("username").innerHTML = id;
 	var xhr = new XMLHttpRequest();
@@ -48,3 +59,5 @@ window.onload = function() {
 		}
 	}
 }
+
+
