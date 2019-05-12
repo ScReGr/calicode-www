@@ -64,6 +64,8 @@ function setTheme(css) {
 theme = getCookie("theme");
 if (theme == "light") {
 	document.getElementById("changemode").href = "css/light.css";
+	document.getElementById("changemode").innerText = "Switch to Dark Mode";
 } else {
 	document.getElementById("changemode").href = "css/dark.css";
+	document.getElementById("changemode").innerText = "Switch to Light Mode";
 }

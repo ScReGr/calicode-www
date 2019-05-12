@@ -328,3 +328,21 @@ textarea, select, input, button { outline: none; }
 	display:inline-block;
 	color:white;
 }
+
+#css_toggle{
+	transition: .25s ease-in-out;
+	color:#ffffff;
+	border: 1px solid #2c333a;
+	width: 174px;
+	padding:3px 5px 3px 5px;
+	border-radius:6px;scroll-margin-left: 
+	text-decoration: none;
+	margin-top:-240px;
+	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	text-align:center;
+}
+#css_toggle:hover { background-color:#0263ff;border-color:#0263ff; }
+
+#css_toggle:active { background-color:#17334F;border-color:#17334F}

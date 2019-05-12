@@ -331,3 +331,21 @@ textarea, select, input, button { outline: none; }
 	display:inline-block;
 	color:black;
 }
+
+#css_toggle {
+	transition: .25s ease-in-out;
+	color:#2C2F3A;
+	border: 1px solid #EDEEF1;
+	width: 174px;
+	padding:3px 5px 3px 5px;
+	border-radius:6px;
+	text-decoration: none;
+	margin-top:-240px;
+	font-family: montserrat, "Helvetica Neue", helvetica, arial, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+
+#css_toggle:hover, #css_toggle:active{ background-color:#0263ff;border-color:#0263ff;color:white}

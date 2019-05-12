@@ -7,7 +7,9 @@ function replyto(user, id) {
 	document.getElementById("reply-input"+id).style.display="inline-block"
 }
 
+// Theme switching
 document.getElementById('css_toggle').onclick = function () {
+	// Sets a cookie with the current theme selected as the value
 	theme = getCookie("theme")
 	if (theme == null) {
 		setTheme("light");
