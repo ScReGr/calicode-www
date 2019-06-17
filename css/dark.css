@@ -236,6 +236,8 @@ textarea, select, input, button { outline: none; }
 	float:right;
 	text-align:center;
 	margin-right: 95px;
+	text-decoration:none;
+	color:white;
 }
 
 .followers p {
@@ -256,6 +258,8 @@ textarea, select, input, button { outline: none; }
 	margin-top:-280px;
 	float:right;
 	text-align:center;
+	text-decoration:none;
+	color:white;
 }
 
 .following p {
