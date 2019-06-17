@@ -52,7 +52,8 @@ window.onload = function() {
 			document.getElementById("aboutUser").innerHTML = response.about;
 			document.getElementById("country").innerHTML = response.country;
 			document.getElementById("comments").innerHTML = "";
-			document.getElementById("numberFollowers").innerHTML = '<h3 style="margin-left:1em;margin-bottom:-10px">Followers ('+response.followers.length+ ')</h3>';
+			document.getElementById("numberFollowers").innerHTML =
+			document.getElementById("numberFollowers").innerHTML+'<h3 style="margin-left:1em;margin-bottom:-10px">Followers ('+response.followers.length+ ')</h3>';
 			document.getElementById("followers").innerHTML = response.followers;
 			var comments = response.comments;
 			for (var c in comments) {
