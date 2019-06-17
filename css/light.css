@@ -238,8 +238,6 @@ textarea, select, input, button { outline: none; }
 	float:right;
 	text-align:center;
 	margin-right: 95px;
-	text-decoration:none;
-	color:#2C2F3A;
 }
 
 .followers p {
@@ -260,8 +258,6 @@ textarea, select, input, button { outline: none; }
 	margin-top:-280px;
 	float:right;
 	text-align:center;
-	text-decoration:none;
-	color:#2C2F3A;
 }
 
 .following p {
@@ -350,17 +346,6 @@ textarea, select, input, button { outline: none; }
 	font-size: 12px;
 	text-align:center;
 	background-color:#FFFFFF;
-}
-
-.followerlist {
-	background-color:#FAFAFB;
-	width: 95%;
-	padding:3px;
-	border-radius:6px;
-	border:1px solid #EDEEF1;
-	margin-left:1em;
-	height:150px;
-	padding-bottom: 1em;
 }
 
 #css_toggle:hover, #css_toggle:active{ background-color:#0263ff;border-color:#0263ff;color:white}
