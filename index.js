@@ -44,7 +44,7 @@ app.get('/users/:name', (req, res) => {
 		$('#country').text(json.country);
 		$('#numberFollowers').text(json.followers);
 		$('#numberFollowing').text(json.following);
-		$('.largeProfileIcon').first().css('background-image', `url(//calicode.now.sh/cdn2/users/${req.params.name.toLowerCase()}.png)`)
+		$('.largeProfileIcon').first().css('background-image', `url(//localhost/cdn2/users/${req.params.name.toLowerCase()}.png)`)
 
 		res.send($.html())
 
