@@ -63,9 +63,9 @@ function setTheme(css) {
 // Themes
 theme = getCookie("theme");
 if (theme == "light") {
-	document.getElementById("changemode").href = "//localhost/cdn/css/light.css";
+	document.getElementById("changemode").href = "//calicode.now.sh/cdn/css/light.css";
 	document.getElementById("changemode").innerText = "Switch to Dark Mode";
 } else {
-	document.getElementById("changemode").href = "//localhost/cdn/css/dark.css";
+	document.getElementById("changemode").href = "//calicode.now.sh/cdn/css/dark.css";
 	document.getElementById("changemode").innerText = "Switch to Light Mode";
 }

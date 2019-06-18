@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'montserrat';
-	src: url('//localhost/cdn/assets/montserrat-regular-webfont.woff2') format('woff2'),
-             url('//localhost/cdn/assets/montserrat-regular-webfont.woff') format('woff');
+	src: url('//calicode.now.sh/cdn/assets/montserrat-regular-webfont.woff2') format('woff2'),
+             url('//calicode.now.sh/cdn/assets/montserrat-regular-webfont.woff') format('woff');
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'montserrat';
 	font-weight: bold;
-	src: url('//localhost/cdn/assets/montserrat-bold-webfont.woff2') format('woff2'),
-             url('//localhost/cdn/assets/montserrat-bold-webfont.woff') format('woff');
+	src: url('//calicode.now.sh/cdn/assets/montserrat-bold-webfont.woff2') format('woff2'),
+             url('//calicode.now.sh/cdn/assets/montserrat-bold-webfont.woff') format('woff');
 	font-style: normal;
 }
 

@@ -6,8 +6,11 @@ const { exec } = require('child_process');
 const fs = require("fs")
 const crypto = require("crypto");
 const cheerio = require("cheerio")
+const qdt = require('./lib/qdt.js')
 
-
+const templates = {
+	'profile': fs.readFileSync(path.join(__dirname, "static/profile.html"), 'UTF-8')
+}
 
 app.use(express.static(path.join(__dirname, "client")))
 
@@ -35,18 +38,8 @@ app.listen(80, () => console.log('Running Calicode'))
 app.get('/users/:name', (req, res) => {
 	if(fs.existsSync(path.join(__dirname, `/db/user_profiles/${req.params.name.toLowerCase()}.json`))){
 		let json = JSON.parse(fs.readFileSync(path.join(__dirname, `/db/user_profiles/${req.params.name.toLowerCase()}.json`)))
-		let html = fs.readFileSync(path.join(__dirname, "static/profile.html"))
-
-		const $ = cheerio.load(html)
-
-		$('#username').text(json.fullName);
-		$('#aboutUser').text(json.about);
-		$('#country').text(json.country);
-		$('#numberFollowers').text(json.followers);
-		$('#numberFollowing').text(json.following);
-		$('.largeProfileIcon').first().css('background-image', `url(//localhost/cdn2/users/${req.params.name.toLowerCase()}.png)`)
-
-		res.send($.html())
+		
+		res.send(qdt.render(templates.profile, json))
 
 
 	}else{
