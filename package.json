@@ -4,7 +4,7 @@
   "description": "calicode-www ================= Website used for the coding service Calicode. The final goal is for users to share projects made in the Calicode editor and interact with each other on profiles, projects, studios, and group pages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", "start": "node index.js"
   },
   "author": "ScReGr",
   "license": "ISC",
