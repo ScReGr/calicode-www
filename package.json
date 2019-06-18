@@ -1,6 +1,10 @@
 {
   "name": "calicode-www-master",
-  "version": "1.0.0",
+  "version": "1.0.0", "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScReGr/calicode-www.git"
+  },
+
   "description": "calicode-www ================= Website used for the coding service Calicode. The final goal is for users to share projects made in the Calicode editor and interact with each other on profiles, projects, studios, and group pages.",
   "main": "index.js",
   "scripts": {
